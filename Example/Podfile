@@ -3,11 +3,8 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'ServerRequestKit_Example' do
+  pod 'RxSwift', '6.5.0'
+  pod 'RxCocoa', '6.5.0'
   pod 'ServerRequestKit', :path => '../'
 
-  target 'ServerRequestKit_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end

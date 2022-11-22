@@ -1,0 +1,31 @@
+{
+  "name": "ServerRequestKit",
+  "version": "0.0.1",
+  "summary": "A short description of ServerRequestKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/313927462@qq.com/ServerRequestKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "313927462@qq.com": "313927462@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/313927462@qq.com/ServerRequestKit.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "public_header_files": "Pod/Classes/Api/*",
+  "source_files": "ServerRequestKit/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "HandyJSON": [
+
+    ]
+  }
+}

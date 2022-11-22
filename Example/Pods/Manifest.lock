@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (5.6.2)
+  - HandyJSON (5.0.2)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - ServerRequestKit (0.0.1):
+    - Alamofire
+    - HandyJSON
+
+DEPENDENCIES:
+  - RxCocoa (= 6.5.0)
+  - RxSwift (= 6.5.0)
+  - ServerRequestKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  ServerRequestKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  HandyJSON: 9e4e236f5d2dbefad5155a77417bbea438201c03
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  ServerRequestKit: 849a6621313c13466a3d01462a1d4b59bea53906
+
+PODFILE CHECKSUM: 0f65366a46517b1e8acbff2c879d3ed86eccbf13
+
+COCOAPODS: 1.11.3

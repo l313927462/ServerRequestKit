@@ -1,0 +1,6 @@
+framework module Pods_ServerRequestKit_Example {
+  umbrella header "Pods-ServerRequestKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

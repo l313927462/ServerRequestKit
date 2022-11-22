@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import ServerRequestKit
+
+
+
+class Atype: BaseRequestModel {
+    var cc = "RTRTE"
+}
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let c = Atype()
+        print( c.queryParams())
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,4 +31,6 @@ class ViewController: UIViewController {
     }
 
 }
+
+
 

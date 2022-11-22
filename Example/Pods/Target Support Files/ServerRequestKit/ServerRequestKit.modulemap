@@ -1,0 +1,6 @@
+framework module ServerRequestKit {
+  umbrella header "ServerRequestKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
